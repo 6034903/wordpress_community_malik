@@ -164,6 +164,9 @@
 </main>
 
 <?php
-get_sidebar();
+// Don't show sidebar on projects page
+if (!is_page('projecten')) {
+    get_sidebar();
+}
 get_footer();
 ?>

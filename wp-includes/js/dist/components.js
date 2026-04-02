@@ -46032,7 +46032,7 @@ var SelectItemCheck = forwardRef2(function SelectItemCheck2(props) {
 });
 
 
-;// ./node_modules/@wordpress/components/build-module/custom-select-control-v2/styles.js
+;// ./node_modules/@wordpress/components/build-module/custom-select-control/styles.js
 
 function custom_select_control_v2_styles_EMOTION_STRINGIFIED_CSS_ERROR_() {
   return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop).";
@@ -46140,7 +46140,7 @@ const SelectedItemCheck = /* @__PURE__ */ emotion_styled_base_browser_esm(Select
 } : 0)("display:flex;align-items:center;margin-inline-start:", space(2), ";fill:currentColor;align-self:start;margin-block-start:2px;font-size:0;", WithHintItemWrapper, "~&,&:not(:empty){font-size:24px;}" + ( true ? "" : 0));
 
 
-;// ./node_modules/@wordpress/components/build-module/custom-select-control-v2/custom-select.js
+;// ./node_modules/@wordpress/components/build-module/custom-select-control/custom-select.js
 
 
 
@@ -46248,7 +46248,7 @@ function _CustomSelect(props) {
 var custom_select_default = _CustomSelect;
 
 
-;// ./node_modules/@wordpress/components/build-module/custom-select-control-v2/item.js
+;// ./node_modules/@wordpress/components/build-module/custom-select-control/item.js
 
 
 

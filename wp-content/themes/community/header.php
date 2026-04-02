@@ -11,8 +11,13 @@
         <div class="header-content">
             <div class="site-branding">
                 <?php
-                if (function_exists('the_custom_logo')) {
-                    the_custom_logo();
+                $site_logo = get_theme_mod('site_logo');
+                if (!empty($site_logo)) {
+                    ?>
+                    <a href="<?php echo esc_url(home_url('/')); ?>" class="site-logo">
+                        <img src="<?php echo esc_url($site_logo); ?>" alt="<?php echo esc_attr(get_bloginfo('name')); ?>" class="custom-logo">
+                    </a>
+                    <?php
                 } else {
                     ?>
                     <a href="<?php echo esc_url(home_url('/')); ?>" class="site-logo">
@@ -35,13 +40,9 @@
             </nav>
             
             <div class="header-actions">
-                <div class="search-icon">
-                    <?php include get_template_directory() . '/icons/search.php'; ?>
-                </div>
-                <div class="cart-icon">
+                <a href="<?php echo esc_url(home_url('/cart/')); ?>" class="cart-icon">
                     <?php include get_template_directory() . '/icons/cart.php'; ?>
-                </div>
-                <a href="#" class="login-button">Login</a>
+                </a>
             </div>
         </div>
     </div>
