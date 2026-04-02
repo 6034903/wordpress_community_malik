@@ -1,0 +1,58 @@
+# Git
+.git
+.gitignore
+
+# WordPress core (we'll download fresh in Docker)
+wp-admin/
+wp-includes/
+index.php
+license.txt
+readme.html
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+
+# Database files
+*.frm
+*.ibd
+*.MYD
+*.MYI
+
+# Logs
+debug.log
+*.log
+
+# Temporary files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if any)
+node_modules/
+
+# Composer (if any)
+vendor/
+
+# Cache
+.cache/
+wp-content/cache/
+wp-content/uploads/cache/
+
+# Backup files
+*.bak
+*.backup
